@@ -21,16 +21,8 @@ function buildEmptyDailyClicks(days = 7) {
  */
 function buildEmptyBreakdowns() {
   return {
-    referrers: [
-      { source: "Direct", count: 0 },
-      { source: "google.com", count: 0 },
-      { source: "twitter.com", count: 0 },
-    ],
-    devices: [
-      { device: "Desktop", pct: 0 },
-      { device: "Mobile", pct: 0 },
-      { device: "Tablet", pct: 0 },
-    ],
+    referrers: [],
+    devices: [],
     countries: [],
   };
 }
